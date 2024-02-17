@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131713;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f0b0b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+}
+
+.recipe {
+    
+    text-align: center;
+    background-color: #06b34b;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recipe img {
+    width: 350px;
+    height: 200px;;
+    border-radius: 5px;
+}
+
+.instructions {
+    display: none;
+}
+
